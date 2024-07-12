@@ -36,6 +36,5 @@ steps:
 - task: NexusIqPipelineTask@1
   inputs:
     nexusIqService: 'NexusIQConnection'
-    organizationId: 'webgoat'
     applicationId: 'webgoat'
     stage: 'Build'
